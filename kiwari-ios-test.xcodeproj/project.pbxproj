@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0624FA74D1EA1752C1419DC /* Pods_kiwari_ios_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF03EFCB68BB852344C15B6E /* Pods_kiwari_ios_test.framework */; };
+		EC41FFE6244E1C6C00A16F8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC41FFE5244E1C6C00A16F8C /* GoogleService-Info.plist */; };
+		EC41FFE9244E248000A16F8C /* ChatRoomViewController+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41FFE8244E248000A16F8C /* ChatRoomViewController+Extention.swift */; };
 		EC750ECF244DE27700AB20D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC750ECE244DE27700AB20D9 /* AppDelegate.swift */; };
-		EC750ED1244DE27700AB20D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC750ED0244DE27700AB20D9 /* SceneDelegate.swift */; };
-		EC750ED3244DE27700AB20D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC750ED2244DE27700AB20D9 /* ViewController.swift */; };
-		EC750ED6244DE27700AB20D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC750ED4244DE27700AB20D9 /* Main.storyboard */; };
+		EC750ED3244DE27700AB20D9 /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC750ED2244DE27700AB20D9 /* ChatRoomViewController.swift */; };
 		EC750ED8244DE27900AB20D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC750ED7244DE27900AB20D9 /* Assets.xcassets */; };
 		EC750EDB244DE27900AB20D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC750ED9244DE27900AB20D9 /* LaunchScreen.storyboard */; };
+		EC750EE5244DF07000AB20D9 /* SigInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC750EE4244DF07000AB20D9 /* SigInViewController.swift */; };
+		EC750EE7244DF28000AB20D9 /* View+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC750EE6244DF28000AB20D9 /* View+Extention.swift */; };
+		EC750EEB244DF3B900AB20D9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC750EEA244DF3B900AB20D9 /* User.swift */; };
+		EC750EF2244DF6AC00AB20D9 /* Extention+Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC750EF1244DF6AC00AB20D9 /* Extention+Library.swift */; };
+		EC750EF9244DF6F600AB20D9 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC750EF8244DF6F600AB20D9 /* ChatCell.swift */; };
+		EC750EFB244DF70D00AB20D9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC750EFA244DF70D00AB20D9 /* Message.swift */; };
+		EC750EFD244DF9C600AB20D9 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC750EFC244DF9C600AB20D9 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B322664CFE91BE3E78BC107 /* Pods-kiwari-ios-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwari-ios-test.debug.xcconfig"; path = "Target Support Files/Pods-kiwari-ios-test/Pods-kiwari-ios-test.debug.xcconfig"; sourceTree = "<group>"; };
+		DC78D5D58BEEF6B5C983BB45 /* Pods-kiwari-ios-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwari-ios-test.release.xcconfig"; path = "Target Support Files/Pods-kiwari-ios-test/Pods-kiwari-ios-test.release.xcconfig"; sourceTree = "<group>"; };
+		EC41FFE5244E1C6C00A16F8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC41FFE8244E248000A16F8C /* ChatRoomViewController+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatRoomViewController+Extention.swift"; sourceTree = "<group>"; };
 		EC750ECB244DE27700AB20D9 /* kiwari-ios-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kiwari-ios-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC750ECE244DE27700AB20D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC750ED0244DE27700AB20D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC750ED2244DE27700AB20D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC750ED5244DE27700AB20D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC750ED2244DE27700AB20D9 /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
 		EC750ED7244DE27900AB20D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC750EDA244DE27900AB20D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC750EDC244DE27900AB20D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC750EE4244DF07000AB20D9 /* SigInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigInViewController.swift; sourceTree = "<group>"; };
+		EC750EE6244DF28000AB20D9 /* View+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extention.swift"; sourceTree = "<group>"; };
+		EC750EEA244DF3B900AB20D9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EC750EF1244DF6AC00AB20D9 /* Extention+Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extention+Library.swift"; sourceTree = "<group>"; };
+		EC750EF8244DF6F600AB20D9 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		EC750EFA244DF70D00AB20D9 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		EC750EFC244DF9C600AB20D9 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		FF03EFCB68BB852344C15B6E /* Pods_kiwari_ios_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kiwari_ios_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0624FA74D1EA1752C1419DC /* Pods_kiwari_ios_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7002F781570EC05B05F5CE82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF03EFCB68BB852344C15B6E /* Pods_kiwari_ios_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0C09E56E6023D6A43C6DEA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B322664CFE91BE3E78BC107 /* Pods-kiwari-ios-test.debug.xcconfig */,
+				DC78D5D58BEEF6B5C983BB45 /* Pods-kiwari-ios-test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC41FFE7244E244700A16F8C /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				EC41FFE8244E248000A16F8C /* ChatRoomViewController+Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
 		EC750EC2244DE27700AB20D9 = {
 			isa = PBXGroup;
 			children = (
 				EC750ECD244DE27700AB20D9 /* kiwari-ios-test */,
 				EC750ECC244DE27700AB20D9 /* Products */,
+				B0C09E56E6023D6A43C6DEA9 /* Pods */,
+				7002F781570EC05B05F5CE82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +102,70 @@
 		EC750ECD244DE27700AB20D9 /* kiwari-ios-test */ = {
 			isa = PBXGroup;
 			children = (
+				EC750EF3244DF6B900AB20D9 /* Chats */,
+				EC750EEE244DF67D00AB20D9 /* Helpers */,
 				EC750ECE244DE27700AB20D9 /* AppDelegate.swift */,
-				EC750ED0244DE27700AB20D9 /* SceneDelegate.swift */,
-				EC750ED2244DE27700AB20D9 /* ViewController.swift */,
-				EC750ED4244DE27700AB20D9 /* Main.storyboard */,
 				EC750ED7244DE27900AB20D9 /* Assets.xcassets */,
 				EC750ED9244DE27900AB20D9 /* LaunchScreen.storyboard */,
 				EC750EDC244DE27900AB20D9 /* Info.plist */,
+				EC41FFE5244E1C6C00A16F8C /* GoogleService-Info.plist */,
 			);
 			path = "kiwari-ios-test";
+			sourceTree = "<group>";
+		};
+		EC750EEE244DF67D00AB20D9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EC750EEF244DF68500AB20D9 /* Extention */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EC750EEF244DF68500AB20D9 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				EC750EE6244DF28000AB20D9 /* View+Extention.swift */,
+				EC750EF1244DF6AC00AB20D9 /* Extention+Library.swift */,
+				EC750EFC244DF9C600AB20D9 /* LoadingView.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		EC750EF3244DF6B900AB20D9 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				EC750EF7244DF6EC00AB20D9 /* Model */,
+				EC750EF6244DF6E700AB20D9 /* View */,
+				EC750EF4244DF6D500AB20D9 /* Controller */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		EC750EF4244DF6D500AB20D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC750ED2244DE27700AB20D9 /* ChatRoomViewController.swift */,
+				EC750EE4244DF07000AB20D9 /* SigInViewController.swift */,
+				EC41FFE7244E244700A16F8C /* Extention */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC750EF6244DF6E700AB20D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC750EF8244DF6F600AB20D9 /* ChatCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC750EF7244DF6EC00AB20D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC750EEA244DF3B900AB20D9 /* User.swift */,
+				EC750EFA244DF70D00AB20D9 /* Message.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC750EDF244DE27900AB20D9 /* Build configuration list for PBXNativeTarget "kiwari-ios-test" */;
 			buildPhases = (
+				ED46B7B3A9D03E9535C0A2A8 /* [CP] Check Pods Manifest.lock */,
 				EC750EC7244DE27700AB20D9 /* Sources */,
 				EC750EC8244DE27700AB20D9 /* Frameworks */,
 				EC750EC9244DE27700AB20D9 /* Resources */,
+				F6103D5B79E7F13F514D9547 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +230,75 @@
 			files = (
 				EC750EDB244DE27900AB20D9 /* LaunchScreen.storyboard in Resources */,
 				EC750ED8244DE27900AB20D9 /* Assets.xcassets in Resources */,
-				EC750ED6244DE27700AB20D9 /* Main.storyboard in Resources */,
+				EC41FFE6244E1C6C00A16F8C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ED46B7B3A9D03E9535C0A2A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kiwari-ios-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6103D5B79E7F13F514D9547 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kiwari-ios-test/Pods-kiwari-ios-test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kiwari-ios-test/Pods-kiwari-ios-test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kiwari-ios-test/Pods-kiwari-ios-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC750EC7244DE27700AB20D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC750ED3244DE27700AB20D9 /* ViewController.swift in Sources */,
+				EC750ED3244DE27700AB20D9 /* ChatRoomViewController.swift in Sources */,
 				EC750ECF244DE27700AB20D9 /* AppDelegate.swift in Sources */,
-				EC750ED1244DE27700AB20D9 /* SceneDelegate.swift in Sources */,
+				EC750EEB244DF3B900AB20D9 /* User.swift in Sources */,
+				EC750EFD244DF9C600AB20D9 /* LoadingView.swift in Sources */,
+				EC750EFB244DF70D00AB20D9 /* Message.swift in Sources */,
+				EC750EF9244DF6F600AB20D9 /* ChatCell.swift in Sources */,
+				EC750EE5244DF07000AB20D9 /* SigInViewController.swift in Sources */,
+				EC41FFE9244E248000A16F8C /* ChatRoomViewController+Extention.swift in Sources */,
+				EC750EE7244DF28000AB20D9 /* View+Extention.swift in Sources */,
+				EC750EF2244DF6AC00AB20D9 /* Extention+Library.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EC750ED4244DE27700AB20D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC750ED5244DE27700AB20D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC750ED9244DE27900AB20D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +426,7 @@
 		};
 		EC750EE0244DE27900AB20D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B322664CFE91BE3E78BC107 /* Pods-kiwari-ios-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +444,7 @@
 		};
 		EC750EE1244DE27900AB20D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC78D5D58BEEF6B5C983BB45 /* Pods-kiwari-ios-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
